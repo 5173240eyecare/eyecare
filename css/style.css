@@ -1124,7 +1124,7 @@ header{
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 26px;
         margin: 0;
     }
 
@@ -1172,7 +1172,7 @@ header{
     }
 
     .P1-ul{
-        font-size: large;
+        font-size: medium;
     }
 
     .P1-draw1{
@@ -1226,11 +1226,12 @@ header{
     }
 
     .sign-btn{
-        padding-top: 5.5%;
+        padding-top: 6%;
+        font-size: 22px;
     }
 
     .con-ul{
-        font-size: large;
+        font-size: medium;
     }
 
     .P3-title{
