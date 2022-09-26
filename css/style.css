@@ -528,6 +528,7 @@ header{
     align-items: center;
     flex-direction: column;
     color: #5f5f5f;
+    text-align: center;
 }
 
 .logo-1{
@@ -572,11 +573,11 @@ header{
 }
 
 .l2{
-    background-image: url(../img/logo/aeust.png);
+    background-image: url(../img/logo/NYMU.png);
 }
 
 .l3{
-    background-image: url(../img/logo/NYMU.png);
+    background-image: url(../img/logo/aeust.png);
 }
 
 .l4{
@@ -1170,6 +1171,10 @@ header{
         margin-top: 2.5%;
     }
 
+    .P1-ul{
+        font-size: large;
+    }
+
     .P1-draw1{
         width: 8%;
         top: -30px;
@@ -1222,6 +1227,10 @@ header{
 
     .sign-btn{
         padding-top: 5.5%;
+    }
+
+    .con-ul{
+        font-size: large;
     }
 
     .P3-title{
@@ -1404,7 +1413,7 @@ header{
     }
 
     .P2-gif6{
-        width: 1800%;
+        width: 1000%;
         margin-left: -1500%;
         margin-top: -800%;
     }
@@ -1433,6 +1442,7 @@ header{
     .logo-2{
         width: 90px;
         height: 90px;
+        text-align: center;
     }
 
     .P3-ul{
