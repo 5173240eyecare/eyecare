@@ -320,11 +320,11 @@ header{
 }
 
 .P2-pos{
-    color: #c3b413;
+    color: #89af01;
 }
 
 .pos-text{
-    color: #fffec6;
+    color: #b0c72d;
 }
 
 .P2-text{
@@ -1450,6 +1450,10 @@ header{
     .P4-gif{
         width: 180%;
         margin-left: -140%;
+    }
+
+    .con-table{
+        font-size: 14px;
     }
 
 }
