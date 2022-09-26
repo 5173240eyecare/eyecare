@@ -1456,4 +1456,8 @@ header{
         font-size: 14px;
     }
 
+    .gotop{
+        width: 60px;
+        height: 60px;
+    }
 }
