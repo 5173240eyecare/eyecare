@@ -4,7 +4,7 @@
 }
 
 body{
-    color: #fff;   
+    color: #fff; 
 }
 
 .container-fluid{
@@ -425,6 +425,7 @@ header{
 }
 
 .sign-text{
+    line-height: 1.5;
     color: #5f5f5f;
 }
 
@@ -471,16 +472,17 @@ header{
     text-align: center;
 }
 
-.con-table,th,td{
-    border: #B797D0 1px solid;
-}
-
 .con-table tr{
     height: 50px;
 }
 
-.con-table th{
-    background-color: #E0CBF0;
+.con-table tr:nth-child(odd) {
+    background-color: #d49bff88;
+}
+
+.con-table td:hover{
+    color: #fff;
+    background-color: #9c5fca;
 }
 
 .P2-notice{
