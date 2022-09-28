@@ -8,7 +8,7 @@ body{
 }
 
 .container-fluid{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+    font-family: 'Noto Sans TC', 'TanukiMagic';
     padding: 0;
     overflow-x: hidden;
 }
@@ -18,6 +18,7 @@ span{
 }
 
 .nav {
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     background-image: url(../img/nav_bg2.png);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -132,6 +133,7 @@ header{
 }
 
 .header-btn{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     color: #fff;
     padding-top: 1%;
     background-position: center;
@@ -235,6 +237,7 @@ header{
 }
 
 .P1-title{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     color: #E36565;
     display: flex;
     justify-content: center;
@@ -297,6 +300,7 @@ header{
 }
 
 .P2-title{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     color: #975E46;
     display: flex;
     justify-content: center;
@@ -310,21 +314,15 @@ header{
 }
 
 .P2-time{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     color: #FC783F;
     margin-bottom: 2%;
     margin-top: 2%;
 }
 
-.time-text{
-    color: #FC783F;
-}
-
 .P2-pos{
-    color: #89af01;
-}
-
-.pos-text{
-    color: #b0c72d;
+    font-family: 'TanukiMagic',  'Noto Sans TC';
+    color: #708130;
 }
 
 .P2-text{
@@ -366,6 +364,7 @@ header{
     left: 16%;
     bottom: 20px;
     transform: rotate(-45deg);
+    z-index: 5;
 }
 
 .P2-gif{
@@ -388,6 +387,7 @@ header{
     right: 10%;
     bottom: -10%;
     width: 19%;
+    z-index: 5;
 }
 
 .P2-gif5{
@@ -405,21 +405,22 @@ header{
 }
 
 .P2-join{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     color: #5CA35F;
 }
 
 .join-text{
-    color: #75c979;
+    color: #5CA35F;
 }
 
 .join-ul{
     list-style:disc;
     font-size: X-large;
     text-align: left;
-    color: #75c979;
 }
 
 .P2-sign{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     color: #5C81A3;
 }
 
@@ -428,6 +429,7 @@ header{
 }
 
 .sign-btn{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     margin-top: 2%;
     background-image: url(../img/sign-btn-1.png);
     background-position: center bottom;
@@ -447,6 +449,7 @@ header{
 }
 
 .P2-con{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     color: #845CA3;
 }
 
@@ -481,6 +484,7 @@ header{
 }
 
 .P2-notice{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     color: #f38385;
 }
 
@@ -495,6 +499,7 @@ header{
 }
 
 .P3-title{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     color: #6BBAB6;
     display: flex;
     justify-content: center;
@@ -554,7 +559,7 @@ header{
 }
 
 .P3-title2 h1{
-    font-weight: 600;
+    font-family: 'TanukiMagic',  'Noto Sans TC';
 }
 
 .logo-2{
@@ -612,6 +617,7 @@ header{
 }
 
 .P4-title{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     color: #E36565;
     display: flex;
     justify-content: center;
@@ -702,6 +708,7 @@ header{
 }
 
 .P4-title2{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     color: #5CA35F;
     display: flex;
     justify-content: center;
@@ -718,6 +725,7 @@ header{
 }
 
 .gotop{
+    font-family: 'TanukiMagic',  'Noto Sans TC';
     width: 130px;
     height: 130px;
     position:fixed;
