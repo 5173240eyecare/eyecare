@@ -411,6 +411,14 @@ header{
     z-index: 99;
 }
 
+.pos-a{
+    color: #5f5f5f;
+}
+
+.pos-a:hover{
+    color: #3a3a3a;
+}
+
 .map{
     width:100%;
 }
@@ -440,24 +448,39 @@ header{
     color: #5f5f5f;
 }
 
+.sign-btn-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    bottom: 3%;
+    left: 32%;
+    z-index: 99999;
+}
+
 .sign-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'TanukiMagic',  'Noto Sans TC';
-    margin-top: 2%;
     background-image: url(../img/sign-btn-1.png);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 400px;
-    height: 100px;
-    padding-top: 4.5%;
-    font-size: 24px;
+    width: 500px;
+    height: 80px;
     color: #fff;
 }
 
 .sign-btn:hover{
+    background-image: url(../img/sign-btn-2.png);
+}
+
+.sign-btn a{
     color: #fff;
     text-decoration: none;
-    background-image: url(../img/sign-btn-2.png);
 }
 
 .P2-con{
@@ -837,6 +860,10 @@ header{
         height: 180px;
     }
 
+    .sign-btn-area{
+        left: 37%;
+    }
+
     .family-gif{
         width: 85%;
     }
@@ -866,10 +893,6 @@ header{
 
     .P2-text{
         margin-bottom: 1%;
-    }
-
-    .sign-btn{
-        padding-top: 3.5%;
     }
 
     .logo-2{
@@ -902,6 +925,10 @@ header{
     .dropdown-menu{
         background-color: transparent;
         box-shadow: none;
+    }
+
+    .sign-btn-area{
+        left: 29%;
     }
 
     .P1-title{
@@ -971,10 +998,6 @@ header{
     .P2-draw4{
         width: 20%;
         left: 6%;
-    }
-
-    .sign-btn{
-        padding-top: 6.5%;
     }
 
     .P2-gif5{
@@ -1056,6 +1079,11 @@ header{
         width: 12%;
         right: -20px;
     }
+
+    .sign-btn-area{
+        left: 30%;
+        width: 380px;
+    }
     
     .P1-title{
         margin-top: 2%;
@@ -1126,10 +1154,6 @@ header{
     .P2-draw4{
         width: 20%;
         left: 6%;
-    }
-
-    .sign-btn{
-        padding-top: 5%;
     }
 
     .P2-gif5{
@@ -1291,9 +1315,8 @@ header{
         width: 20%;
     }
 
-    .sign-btn{
-        padding-top: 6%;
-        font-size: 22px;
+    .sign-btn-area{
+        left: 25%;
     }
 
     .con-ul{
@@ -1464,9 +1487,10 @@ header{
         right: 0;
     }
 
-    .sign-btn{
+    .sign-btn-area{
         width: 250px;
         height: 70px;
+        left: 19%;
     }
 
     .P2-gif5{
