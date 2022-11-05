@@ -3,22 +3,22 @@
     src: url(./TanukiPermanentMarker.ttf);
 }
 
-body{
-    color: #5f5f5f; 
+body {
+    color: #5f5f5f;
 }
 
-.container-fluid{
+.container-fluid {
     font-family: 'Noto Sans TC', 'TanukiMagic';
     padding: 0;
     overflow-x: hidden;
 }
 
-span{
+span {
     font-family: 'Noto Sans TC';
 }
 
 .nav {
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     background-image: url(../img/nav_bg2.png);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -40,13 +40,13 @@ span{
         height: 0;
     }
 
-    to{
+    to {
         height: 100px;
     }
 }
 
-.navbar-collapse{
-    flex-direction:row-reverse;
+.navbar-collapse {
+    flex-direction: row-reverse;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -68,7 +68,7 @@ span{
     align-items: center;
 }
 
-.navbar-nav h4{
+.navbar-nav h4 {
     margin: 0;
     padding: 0 20px 0 10px;
 }
@@ -93,7 +93,7 @@ span{
     border-bottom: 1px solid darkgray;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
     background-color: #FFC266;
 }
 
@@ -106,7 +106,7 @@ span{
     display: block;
 }
 
-header{
+header {
     position: relative;
     z-index: 5;
     width: 100%;
@@ -118,13 +118,13 @@ header{
     background-color: #FFC266;
 }
 
-.header-row{
+.header-row {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header-title{
+.header-title {
     background-image: url(../img/title.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -132,8 +132,8 @@ header{
     height: 250px;
 }
 
-.header-btn{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.header-btn {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #fff;
     padding-top: 1%;
     background-position: center;
@@ -145,67 +145,67 @@ header{
     align-items: center;
 }
 
-.header-btn:hover{
+.header-btn:hover {
     color: #fff;
     text-decoration: none;
 }
 
-.c1{
+.c1 {
     margin-top: 15%;
     margin-right: -5%;
     background-image: url(../img/Cbtn-1.png);
     transform: rotate(-10deg);
 }
 
-.c2{
+.c2 {
     margin-top: -10%;
     background-image: url(../img/Cbtn-2.png);
 }
 
-.c3{
+.c3 {
     margin-top: -10%;
     background-image: url(../img/Cbtn-3.png);
 }
 
-.c4{
+.c4 {
     margin-top: 15%;
     margin-left: -5%;
     background-image: url(../img/Cbtn-4.png);
     transform: rotate(10deg);
 }
 
-.c1:hover{
+.c1:hover {
     background-image: url(../img/Cbtn-1-2.png);
 }
 
-.c2:hover{
+.c2:hover {
     background-image: url(../img/Cbtn-2-2.png);
 }
 
-.c3:hover{
+.c3:hover {
     background-image: url(../img/Cbtn-3-2.png);
 }
 
-.c4:hover{
+.c4:hover {
     background-image: url(../img/Cbtn-4-2.png);
 }
 
-.header-draw1{
+.header-draw1 {
     width: 10%;
     position: absolute;
     left: -40px;
     bottom: 0;
 }
 
-.header-draw2{
+.header-draw2 {
     width: 10%;
     position: absolute;
     right: 0;
-    top:-50px;
+    top: -50px;
     transform: rotate(-90deg);
 }
 
-.header-draw3{
+.header-draw3 {
     width: 10%;
     position: absolute;
     right: -30px;
@@ -213,16 +213,16 @@ header{
     transform: rotate(-10deg);
 }
 
-.video{
+.video {
     width: 100%;
 }
 
-.family-gif{
+.family-gif {
     margin-top: 30%;
     width: 100%;
 }
 
-#P1{
+#P1 {
     position: relative;
     z-index: 4;
     background-color: #FFDB7E;
@@ -232,12 +232,12 @@ header{
     background-size: cover;
 }
 
-.space{
+.space {
     height: 100px;
 }
 
-.P1-title{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P1-title {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #E36565;
     display: flex;
     justify-content: center;
@@ -246,11 +246,11 @@ header{
     margin-top: 2%;
 }
 
-.P1-title h1{
+.P1-title h1 {
     font-weight: 600;
 }
 
-.P1-draw1{
+.P1-draw1 {
     width: 10%;
     position: absolute;
     left: 33%;
@@ -258,7 +258,7 @@ header{
     transform: rotate(-10deg);
 }
 
-.P1-draw2{
+.P1-draw2 {
     width: 10%;
     position: absolute;
     right: 40%;
@@ -266,30 +266,30 @@ header{
     transform: rotate(-90deg);
 }
 
-.P1-draw3{
+.P1-draw3 {
     width: 6%;
     position: absolute;
     right: 34%;
     bottom: -10px;
 }
 
-.P1-text{
+.P1-text {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 2%;
 }
 
-.P1-ul{
-    list-style:decimal;
+.P1-ul {
+    list-style: decimal;
     font-size: X-large;
 }
 
-.P1-gif{
+.P1-gif {
     width: 140%;
 }
 
-#P2{
+#P2 {
     position: relative;
     z-index: 3;
     background-color: #FFE99C;
@@ -299,8 +299,8 @@ header{
     background-size: cover;
 }
 
-.P2-title{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P2-title {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #975E46;
     display: flex;
     justify-content: center;
@@ -309,21 +309,21 @@ header{
     margin-top: 2%;
 }
 
-.P2-title h1{
+.P2-title h1 {
     font-weight: 600;
 }
 
-.P2-time{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P2-time {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #FC783F;
 }
 
-.P2-pos{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P2-pos {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #708130;
 }
 
-.P2-text{
+.P2-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,7 +337,7 @@ header{
     padding: 1%;
 }
 
-.P2-draw1{
+.P2-draw1 {
     width: 10%;
     position: absolute;
     left: 33%;
@@ -345,7 +345,7 @@ header{
     transform: rotate(-60deg);
 }
 
-.P2-draw2{
+.P2-draw2 {
     width: 10%;
     position: absolute;
     right: 40%;
@@ -353,14 +353,14 @@ header{
     transform: rotate(-90deg);
 }
 
-.P2-draw3{
+.P2-draw3 {
     width: 6%;
     position: absolute;
     right: 34%;
     bottom: -10px;
 }
 
-.P2-draw4{
+.P2-draw4 {
     width: 15%;
     position: absolute;
     left: 16%;
@@ -369,27 +369,27 @@ header{
     z-index: 5;
 }
 
-.P2-gif{
+.P2-gif {
     margin-left: -80%;
     width: 150%;
     position: relative;
     z-index: 99;
 }
 
-.P2-gif2{
+.P2-gif2 {
     margin-top: 300%;
     width: 130%;
     position: relative;
     z-index: 99;
 }
 
-.P2-gif3{
+.P2-gif3 {
     width: 160%;
     position: relative;
     z-index: 99;
 }
 
-.P2-gif4{
+.P2-gif4 {
     position: absolute;
     transform: rotateY(180deg);
     right: 10%;
@@ -398,57 +398,57 @@ header{
     z-index: 99;
 }
 
-.P2-gif5{
+.P2-gif5 {
     width: 80%;
     position: relative;
     z-index: 99;
 }
 
-.P2-gif6{
+.P2-gif6 {
     margin-top: 150%;
     width: 70%;
     position: relative;
     z-index: 99;
 }
 
-.pos-a{
+.pos-a {
     color: #5f5f5f;
 }
 
-.pos-a:hover{
+.pos-a:hover {
     color: #3a3a3a;
 }
 
-.map{
-    width:100%;
+.map {
+    width: 100%;
 }
 
-.P2-join{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P2-join {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #5CA35F;
 }
 
-.join-text{
+.join-text {
     color: #5CA35F;
 }
 
-.join-ul{
-    list-style:disc;
+.join-ul {
+    list-style: disc;
     font-size: X-large;
     text-align: left;
 }
 
-.P2-sign{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P2-sign {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #5C81A3;
 }
 
-.sign-text{
+.sign-text {
     line-height: 1.5;
     color: #5f5f5f;
 }
 
-.sign-btn-area{
+.sign-btn-area {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -460,11 +460,11 @@ header{
     z-index: 99999;
 }
 
-.sign-btn{
+.sign-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     background-image: url(../img/sign-btn-1.png);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -474,47 +474,47 @@ header{
     color: #fff;
 }
 
-.sign-btn:hover{
+.sign-btn:hover {
     background-image: url(../img/sign-btn-2.png);
 }
 
-.sign-btn a{
+.sign-btn a {
     color: #fff;
     text-decoration: none;
 }
 
-.P2-con{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P2-con {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #845CA3;
 }
 
-.P2-color{
+.P2-color {
     width: 90%;
     margin-bottom: 15px;
 }
 
-.con-ul{
-    list-style:decimal;
+.con-ul {
+    list-style: decimal;
     font-size: X-large;
     text-align: left;
     color: #5f5f5f;
 }
 
-.con-table{
+.con-table {
     font-size: 20px;
     width: 100%;
     text-align: center;
 }
 
-.con-table tr{
+.con-table tr {
     height: 50px;
 }
 
 .con-table tr:nth-child(odd) {
     background-color: rgba(177, 150, 212, 0.4);
 }
-  
-.con-table th:nth-child(odd){
+
+.con-table th:nth-child(odd) {
     background-color: rgba(177, 150, 212, 0.4);
 }
 
@@ -522,55 +522,55 @@ header{
     background-color: rgba(177, 150, 212, 0.4);
 }
 
-.con-table td:hover{
+.con-table td:hover {
     color: #fff;
     background-color: #a97fca;
 }
 
-.con-table2{
+.con-table2 {
     font-size: 20px;
     width: 100%;
     text-align: center;
 }
 
-.con-table2 tr{
+.con-table2 tr {
     height: 50px;
 }
 
-.con-l0{
+.con-l0 {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.con-l1{
+.con-l1 {
     background-color: rgba(255, 129, 129, 0.2);
 }
 
-.con-l2{
+.con-l2 {
     background-color: rgba(255, 205, 129, 0.2);
 }
 
-.con-l3{
+.con-l3 {
     background-color: rgba(232, 255, 129, 0.2);
 }
 
-.con-l4{
+.con-l4 {
     background-color: rgba(158, 255, 129, 0.2);
 }
 
-.con-l5{
+.con-l5 {
     background-color: rgba(131, 129, 255, 0.2);
 }
 
-.con-l6{
+.con-l6 {
     background-color: rgba(255, 129, 255, 0.2);
 }
 
-.P2-notice{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P2-notice {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #f38385;
 }
 
-#P3{
+#P3 {
     position: relative;
     z-index: 2;
     background-color: #FFF9C7;
@@ -580,8 +580,8 @@ header{
     background-size: cover;
 }
 
-.P3-title{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P3-title {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #6BBAB6;
     display: flex;
     justify-content: center;
@@ -590,11 +590,11 @@ header{
     margin-top: 2%;
 }
 
-.P3-title h1{
+.P3-title h1 {
     font-weight: 600;
 }
 
-.P3-draw1{
+.P3-draw1 {
     width: 10%;
     position: absolute;
     left: 33%;
@@ -602,14 +602,14 @@ header{
     transform: rotate(-10deg);
 }
 
-.P3-draw2{
+.P3-draw2 {
     width: 5.5%;
     position: absolute;
     right: 34%;
     transform: rotate(15deg);
 }
 
-.P3-logo{
+.P3-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -618,7 +618,7 @@ header{
     text-align: center;
 }
 
-.logo-1{
+.logo-1 {
     background-image: url(../img/logo/New_Taipei_City.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -630,7 +630,7 @@ header{
     margin-bottom: 2%;
 }
 
-.P3-title2{
+.P3-title2 {
     color: #F39C6C;
     display: flex;
     justify-content: center;
@@ -640,11 +640,11 @@ header{
     flex-direction: column;
 }
 
-.P3-title2 h1{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P3-title2 h1 {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
 }
 
-.logo-2{
+.logo-2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: calc(90%);
@@ -655,34 +655,44 @@ header{
     margin-bottom: 2%;
 }
 
-.l1{
+.l1 {
     background-image: url(../img/logo/fe.png);
+    background-size: calc(90%);
 }
 
-.l2{
+.l1-2 {
+    background-image: url(../img/logo/feg.png);
+    background-size: calc(100%);
+}
+
+.l2 {
     background-image: url(../img/logo/aeust.png);
 }
 
-.l3{
+.l3 {
     background-image: url(../img/logo/NYMU.png);
 }
 
-.l4{
+.l4 {
     background-image: url(../img/logo/3481.png);
 }
 
-.l5{
+.l5 {
     background-image: url(../img/logo/rainbow.png);
 }
 
-.P3-ul{
+.l6 {
+    background-image: url(../img/logo/amart.png);
+}
+
+.P3-ul {
     margin-top: 3%;
     font-size: X-large;
     text-align: left;
     color: #5f5f5f;
 }
 
-#P4{
+#P4 {
     background-image: url(../img/P4_bg.png);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -693,13 +703,13 @@ header{
     z-index: 1;
 }
 
-#P4 h6{
+#P4 h6 {
     padding-bottom: 5px;
     margin-bottom: 0px;
 }
 
-.P4-title{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P4-title {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #E36565;
     display: flex;
     justify-content: center;
@@ -709,11 +719,11 @@ header{
     flex-direction: column;
 }
 
-.P4-title h1{
+.P4-title h1 {
     font-weight: 600;
 }
 
-.P4-draw1{
+.P4-draw1 {
     width: 9%;
     position: absolute;
     left: 33%;
@@ -721,40 +731,41 @@ header{
     transform: rotate(-20deg);
 }
 
-.P4-draw2{
+.P4-draw2 {
     width: 7%;
     position: absolute;
     right: 34%;
     transform: rotate(15deg);
 }
 
-#navigation > ul {
+#navigation>ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
 
-#navigation > ul > li {
+#navigation>ul>li {
     background-color: #FDD5B1;
     color: #E36565;
     border-bottom: 1px dashed #E36565;
 }
 
-#navigation > ul > li > a {
+#navigation>ul>li>a {
     display: block;
     padding: 10px;
     text-decoration: none;
 }
 
-#navigation > ul > li > a > h5{
+#navigation>ul>li>a>h5 {
     margin: 0;
 }
 
-#navigation > ul > li > a:link,
-#navigation > ul > li > a:visited {
+#navigation>ul>li>a:link,
+#navigation>ul>li>a:visited {
     color: #E36565;
 }
-#navigation > ul > li > a:hover {
+
+#navigation>ul>li>a:hover {
     background-color: #FFE99C;
 }
 
@@ -780,7 +791,7 @@ header{
 #navigation ul li ul li a:visited {
     color: #5f5f5f;
 }
-  
+
 #navigation ul li ul.myHide {
     display: none;
 }
@@ -789,8 +800,8 @@ header{
     display: block;
 }
 
-.P4-title2{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.P4-title2 {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #5CA35F;
     display: flex;
     justify-content: center;
@@ -800,24 +811,24 @@ header{
     flex-direction: column;
 }
 
-.P4-gif{
+.P4-gif {
     width: 100%;
     margin-top: 70%;
     margin-left: -100%;
 }
 
-.gotop{
-    font-family: 'TanukiMagic',  'Noto Sans TC';
+.gotop {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
     width: 130px;
     height: 130px;
-    position:fixed;
+    position: fixed;
     right: 3%;
     bottom: 3%;
     background-image: url(../img/top.png);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;    
+    text-align: center;
     color: white;
     display: flex;
     justify-content: center;
@@ -825,84 +836,84 @@ header{
     z-index: 999;
 }
 
-.gotop:hover{
+.gotop:hover {
     background-image: url(../img/top2.png);
     color: #fff;
     text-decoration: none;
 }
 
-.gotop h4{
+.gotop h4 {
     margin: 0;
 }
 
-.col-space{
+.col-space {
     display: none;
 }
 
 @media only screen and (min-width: 1500px) {
-    .nav{
+    .nav {
         height: 120px;
     }
 
-    .navbar-nav h4{
+    .navbar-nav h4 {
         padding-bottom: 30px;
     }
 
-    .dropdown-menu{
+    .dropdown-menu {
         margin-top: -10%;
     }
 
-    header{
+    header {
         height: 900px;
     }
 
-    .header-btn{
+    .header-btn {
         height: 180px;
     }
 
-    .sign-btn-area{
+    .sign-btn-area {
         left: 37%;
     }
 
-    .family-gif{
+    .family-gif {
         width: 85%;
     }
 
-    .P1-title{
+    .P1-title {
         margin-top: 1%;
         margin-bottom: 1%;
     }
 
-    .P1-draw2{
+    .P1-draw2 {
         bottom: -40px;
     }
 
-    .P1-gif{
+    .P1-gif {
         margin-left: 60%;
         padding-bottom: 50%;
     }
 
-    .P2-title{
+    .P2-title {
         margin-top: 1%;
         margin-bottom: 1%;
     }
 
-    .P2-draw2{
+    .P2-draw2 {
         bottom: -40px;
     }
 
-    .P2-text{
+    .P2-text {
         margin-bottom: 1%;
     }
 
-    .logo-2{
+    .logo-2 {
         width: 200px;
         height: 200px;
     }
 }
 
 @media only screen and (max-width: 1199px) {
-    .nav{
+    .nav {
         padding-right: 0;
         flex-direction: row-reverse;
         height: 90px;
@@ -912,120 +923,125 @@ header{
         from {
             height: 0;
         }
-    
-        to{
+
+        to {
             height: 90px;
         }
     }
 
-    .navbar-light .navbar-toggler{
+    .navbar-light .navbar-toggler {
         border: none;
     }
 
-    .dropdown-menu{
+    .dropdown-menu {
         background-color: transparent;
         box-shadow: none;
     }
 
-    .sign-btn-area{
+    .sign-btn-area {
         left: 29%;
     }
 
-    .P1-title{
+    .P1-title {
         margin-top: 3%;
         margin-bottom: 2%;
     }
 
-    .P1-text{
+    .P1-text {
         margin-bottom: 0;
     }
 
-    .P1-gif{
+    .P1-gif {
         width: 200%;
         margin-left: 0%;
     }
 
-    .P1-draw2{
+    .P1-draw2 {
         width: 15%;
         bottom: -35px;
         right: 35%;
     }
 
-    .P1-draw3{
+    .P1-draw3 {
         width: 8%;
         right: 28%;
         bottom: 5px;
     }
 
-    .P2-title{
+    .P2-title {
         margin-top: 3%;
         margin-bottom: 2%;
     }
 
-    .P2-draw2{
+    .P2-draw2 {
         width: 15%;
         bottom: -35px;
         right: 35%;
     }
 
-    .P2-draw3{
+    .P2-draw3 {
         width: 8%;
         right: 28%;
         bottom: 5px;
     }
 
-    .P2-gif{
+    .P2-gif {
         width: 200%;
         margin-left: 0%;
     }
 
-    .P2-gif2{
+    .P2-gif2 {
         width: 200%;
         margin-left: 100%;
     }
 
-    .P2-gif3{
+    .P2-gif3 {
         width: 250%;
         margin-left: -50%;
     }
 
-    .P2-gif4{
+    .P2-gif4 {
         right: -7%;
         bottom: -5%;
         width: 27%;
     }
 
-    .P2-draw4{
+    .P2-draw4 {
         width: 20%;
         left: 6%;
     }
 
-    .P2-gif5{
+    .P2-gif5 {
         width: 100%;
     }
 
-    .P2-gif6{
+    .P2-gif6 {
         width: 100%;
     }
 
-    .P3-title{
+    .P3-title {
         margin-top: 3%;
         margin-bottom: 2%;
     }
 
-    .P3-draw1{
+    .P3-draw1 {
         top: -30px;
         left: 30%;
     }
 
-    .P3-draw2{
+    .P3-draw2 {
         width: 8%;
         right: 27%;
     }
 
-    .P4-title{
+    .P4-title {
         margin-top: 3%;
         margin-bottom: 2%;
+    }
+
+    .logo-1 {
+        width: 160px;
+        height: 160px;
     }
 }
 
@@ -1052,156 +1068,160 @@ header{
         font-size: 20px;
     }
 
-    .space{
+    .space {
         height: 50px;
     }
 
-    .nav{
+    .nav {
         padding-right: 0;
     }
 
-    header{
+    header {
         height: 600px;
     }
 
-    .header-draw1{
+    .header-draw1 {
         width: 12%;
-        left: -20px;        
+        left: -20px;
     }
 
-    .header-draw2{
+    .header-draw2 {
         width: 12%;
 
         top: -30px;
     }
 
-    .header-draw3{
+    .header-draw3 {
         width: 12%;
         right: -20px;
     }
 
-    .sign-btn-area{
+    .sign-btn-area {
         left: 30%;
         width: 380px;
     }
-    
-    .P1-title{
+
+    .P1-title {
         margin-top: 2%;
         margin-bottom: 0;
     }
 
-    .P1-text{
+    .P1-text {
         margin-bottom: 0;
     }
 
-    .P1-gif{
+    .P1-gif {
         width: 60%;
         margin-left: 50%;
         padding-bottom: 10%;
     }
 
-    .P1-draw2{
+    .P1-draw2 {
         width: 10%;
         bottom: -25px;
         right: 40%;
     }
 
-    .P1-draw3{
+    .P1-draw3 {
         width: 8%;
         right: 32%;
         bottom: 0;
     }
 
-    .P2-title{
+    .P2-title {
         margin-top: 2%;
         margin-bottom: 0%;
     }
 
-    .P2-draw2{
+    .P2-draw2 {
         width: 10%;
         bottom: -25px;
         right: 40%;
     }
 
-    .P2-draw3{
+    .P2-draw3 {
         width: 8%;
         right: 33%;
         bottom: 0px;
     }
 
-    .P2-gif{
+    .P2-gif {
         width: 100%;
         margin-left: 0%;
     }
 
-    .P2-gif2{
+    .P2-gif2 {
         width: 100%;
         margin-top: 150%;
         margin-left: -20%;
     }
 
-    .P2-gif3{
+    .P2-gif3 {
         width: 120%;
         margin-left: 10%;
     }
 
-    .P2-gif4{
+    .P2-gif4 {
         right: -7%;
         bottom: -10%;
         width: 24%;
     }
 
-    .P2-draw4{
+    .P2-draw4 {
         width: 20%;
         left: 6%;
     }
 
-    .P2-gif5{
+    .P2-gif5 {
         width: 120%;
     }
 
-    .P2-gif6{
+    .P2-gif6 {
         width: 120%;
         margin-left: -20%;
     }
 
-    .P3-title{
+    .P3-title {
         margin-top: 2%;
         margin-bottom: 1%;
     }
 
-    .logo-1{
-        width: 150px;
-        height: 150px;
+    .logo-row{
+        justify-content: center;
     }
 
-    .logo-2{
+    .logo-1 {
+        width: 160px;
+        height: 160px;
+    }
+
+    .logo-2 {
         width: 120px;
         height: 120px;
     }
 
-    .P3-draw1{
+    .P3-draw1 {
         top: -30px;
         left: 33%;
     }
 
-    .P3-draw2{
+    .P3-draw2 {
         width: 8%;
         right: 31%;
     }
 
-    .P4-title{
+    .P4-title {
         margin-top: 3%;
         margin-bottom: 1%;
     }
 
-    .P4-draw1{
+    .P4-draw1 {
         width: 8%;
         left: 35%;
         top: -30px;
     }
 
-    .P4-gif{
+    .P4-gif {
         width: 120%;
     }
 }
@@ -1231,7 +1251,7 @@ header{
         font-size: 20px;
     }
 
-    .nav{
+    .nav {
         height: 70px;
     }
 
@@ -1239,126 +1259,126 @@ header{
         from {
             height: 0;
         }
-    
-        to{
+
+        to {
             height: 70px;
         }
     }
 
-    header{
+    header {
         height: 650px;
     }
 
-    .header-title{
+    .header-title {
         height: 110px;
     }
 
-    .header-btn{
+    .header-btn {
         height: 140px;
     }
 
-    .P1-title{
+    .P1-title {
         margin-top: 2.5%;
     }
 
-    .P1-ul{
+    .P1-ul {
         font-size: medium;
     }
 
-    .P1-draw1{
+    .P1-draw1 {
         width: 8%;
         top: -30px;
         left: 35%;
     }
 
-    .P1-draw2{
+    .P1-draw2 {
         width: 9%;
         right: 41.5%;
     }
 
-    .P1-draw3{
+    .P1-draw3 {
         right: 33%;
     }
 
-    .P1-gif{
+    .P1-gif {
         width: 100%;
         padding-bottom: 0;
         margin-left: 30%;
     }
 
-    .P2-draw1{
+    .P2-draw1 {
         width: 9%;
         left: 34%;
         top: -28px;
     }
 
-    .P2-draw2{
+    .P2-draw2 {
         width: 9%;
         bottom: -30px;
         right: 41.5%;
     }
 
-    .P2-draw3{
+    .P2-draw3 {
         width: 7%;
         right: 34%;
         bottom: 0px;
     }
 
-    .P2-gif{
+    .P2-gif {
         width: 100%;
         margin-left: -100%;
     }
 
-    .P2-gif4{
+    .P2-gif4 {
         right: 3%;
         bottom: -5%;
         width: 20%;
     }
 
-    .sign-btn-area{
+    .sign-btn-area {
         left: 25%;
     }
 
-    .con-ul{
+    .con-ul {
         font-size: medium;
     }
 
-    .P3-title{
+    .P3-title {
         margin-top: 1%;
     }
 
-    .P3-draw1{
+    .P3-draw1 {
         width: 8%;
         top: -25px;
         left: 37%;
     }
 
-    .P3-draw2{
+    .P3-draw2 {
         width: 5.5%;
         right: 37%;
     }
 
-    .logo-1{
+    .logo-1 {
         width: 150px;
         height: 150px;
     }
 
-    .logo-2{
+    .logo-2 {
         width: 150px;
         height: 150px;
     }
 
-    .P4-draw1{
+    .P4-draw1 {
         width: 7%;
         left: 35%;
         top: -20px;
     }
 
-    .P4-gif{
+    .P4-gif {
         width: 130%;
     }
 
-    .gotop{
+    .gotop {
         width: 90px;
         height: 90px;
     }
@@ -1387,176 +1407,176 @@ header{
         font-size: 16px;
     }
 
-    header{
+    header {
         height: 500px;
     }
 
-    .header-btn{
+    .header-btn {
         height: 90px;
     }
 
-    .header-btn h3{
+    .header-btn h3 {
         font-size: 18px;
     }
 
-    .header-title{
+    .header-title {
         height: 60px;
     }
 
-    .video{
+    .video {
         margin-top: 4%;
     }
 
-    .header-draw1{
+    .header-draw1 {
         width: 20%;
     }
 
-    .header-draw2{
+    .header-draw2 {
         width: 20%;
     }
 
-    .header-draw3{
+    .header-draw3 {
         width: 20%;
         bottom: 0;
     }
 
-    .family-gif{
+    .family-gif {
         margin-left: -50%;
         width: 190%;
     }
 
-    .P1-draw1{
+    .P1-draw1 {
         width: 10%;
         top: -14px;
         left: 28%;
     }
 
-    .P1-draw2{
+    .P1-draw2 {
         width: 14%;
         right: 36%;
         bottom: -23px;
     }
 
-    .P1-draw3{
+    .P1-draw3 {
         width: 10%;
         right: 27%;
     }
 
-    .P1-text{
+    .P1-text {
         padding-right: 14%;
     }
 
-    .P1-gif{
+    .P1-gif {
         width: 200%;
         margin-left: -15%;
     }
 
-    .P2-draw1{
+    .P2-draw1 {
         width: 11%;
         left: 27%;
         top: -12px;
     }
 
-    .P2-draw2{
+    .P2-draw2 {
         width: 14%;
         right: 36%;
         bottom: -23px;
     }
 
-    .P2-draw3{
+    .P2-draw3 {
         width: 10%;
         right: 27%;
     }
 
-    .P2-gif{
+    .P2-gif {
         width: 200%;
         margin-left: -140%;
     }
 
-    .P2-gif2{
+    .P2-gif2 {
         width: 165%;
         margin-left: -100%;
     }
 
-    .P2-gif3{
+    .P2-gif3 {
         width: 190%;
     }
-    
-    .P2-gif4{
+
+    .P2-gif4 {
         width: 22%;
         right: 0;
     }
 
-    .sign-btn-area{
+    .sign-btn-area {
         width: 250px;
         height: 70px;
         left: 19%;
     }
 
-    .P2-gif5{
+    .P2-gif5 {
         width: 180%;
         margin-top: 100%;
     }
 
-    .P2-gif6{
+    .P2-gif6 {
         width: 1100%;
         margin-left: -1000%;
         margin-top: -400%;
     }
 
-    .P2-text{
+    .P2-text {
         margin-bottom: 3%;
     }
 
-    .P3-draw1{
+    .P3-draw1 {
         width: 11%;
         top: -15px;
         left: 29%;
     }
 
-    .P3-draw2{
+    .P3-draw2 {
         width: 7.5%;
         right: 29%;
         bottom: 5px;
     }
 
-    .logo-1{
+    .logo-1 {
         width: 100px;
         height: 100px;
     }
 
-    .logo-2{
+    .logo-2 {
         width: 90px;
         height: 90px;
         text-align: center;
     }
 
-    .P3-ul{
+    .P3-ul {
         padding-right: 1%;
     }
 
-    .P4-draw1{
+    .P4-draw1 {
         top: -10px;
     }
 
-    .QR{
+    .QR {
         width: 200px;
     }
 
-    .P4-gif{
+    .P4-gif {
         width: 180%;
         margin-left: -140%;
     }
 
-    .con-table{
+    .con-table {
         font-size: 14px;
     }
 
-    .con-table2{
+    .con-table2 {
         font-size: 14px;
     }
 
-    .gotop{
+    .gotop {
         width: 60px;
         height: 60px;
     }
