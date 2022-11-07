@@ -645,6 +645,11 @@ header {
     font-family: 'TanukiMagic', 'Noto Sans TC';
 }
 
+.logo-row {
+    margin-bottom: 1%;
+    padding: 0 20px;
+}
+
 .logo-2 {
     background-position: center;
     background-repeat: no-repeat;
@@ -754,13 +759,14 @@ header {
     width: 9%;
     position: absolute;
     left: 25%;
-    top: -35px;
+    top: -30px;
     transform: rotate(-20deg);
 }
 
 .P4-draw2 {
     width: 7%;
     position: absolute;
+    top: 0;
     right: 26%;
     transform: rotate(15deg);
 }
@@ -1116,8 +1122,8 @@ header {
     }
 
     .logo-1 {
-        width: 160px;
-        height: 160px;
+        width: 170px;
+        height: 170px;
     }
 
     .P4-title {
@@ -1127,7 +1133,7 @@ header {
 
     .P4-draw1 {
         left: 20%;
-        top: -30px;
+        top: -25px;
     }
 
     .P4-draw2 {
@@ -1278,17 +1284,22 @@ header {
     }
 
     .logo-row {
-        justify-content: center;
+        padding: 0 100px;
     }
 
     .logo-1 {
-        width: 160px;
-        height: 160px;
+        width: 180px;
+        height: 180px;
     }
 
     .logo-2 {
-        width: 120px;
-        height: 120px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .logo-3 {
+        width: 180px;
+        height: 180px;
     }
 
     .P3-draw1 {
@@ -1318,7 +1329,6 @@ header {
         width: 120%;
     }
 }
-
 
 
 @media only screen and (max-width: 768px) {
@@ -1451,12 +1461,21 @@ header {
         right: 37%;
     }
 
+    .logo-row {
+        padding: 0 85px;
+    }
+
     .logo-1 {
         width: 150px;
         height: 150px;
     }
 
     .logo-2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .logo-3 {
         width: 150px;
         height: 150px;
     }
@@ -1632,15 +1651,24 @@ header {
         bottom: 5px;
     }
 
+    .logo-row {
+        padding: 0 40px;
+    }
+
     .logo-1 {
-        width: 100px;
-        height: 100px;
+        width: 130px;
+        height: 130px;
     }
 
     .logo-2 {
-        width: 90px;
-        height: 90px;
+        width: 110px;
+        height: 110px;
         text-align: center;
+    }
+
+    .logo-3 {
+        width: 130px;
+        height: 130px;
     }
 
     .P3-ul {
