@@ -661,6 +661,17 @@ header {
     margin-bottom: 2%;
 }
 
+.logo-3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(85%);
+    width: 200px;
+    height: 200px;
+    border: #F39C6C 3px dashed;
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+
 .l1 {
     background-image: url(../img/logo/fe.png);
     background-size: calc(90%);
@@ -695,6 +706,16 @@ header {
     background-image: url(../img/logo/feh.png);
 }
 
+.l8 {
+    background-image: url(../img/logo/ntpc.png);
+}
+
+.l9 {
+    background-size: calc(65%);
+    background-position: 40%;
+    background-image: url(../img/logo/tpark.png);
+}
+
 .P3-ul {
     margin-top: 3%;
     font-size: X-large;
@@ -708,24 +729,12 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 1%;
-    margin-top: 1%;
+    margin-top: 3%;
     flex-direction: column;
 }
 
 .P3-title3 h1 {
     font-family: 'TanukiMagic', 'Noto Sans TC';
-}
-
-.logo-3 {
-    background-image: url(../img/logo/ntpc.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: calc(85%);
-    width: 200px;
-    height: 200px;
-    border: #F39C6C 3px dashed;
-    border-radius: 50%;
-    margin-bottom: 2%;
 }
 
 #P4 {
