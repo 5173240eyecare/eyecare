@@ -1540,7 +1540,7 @@ header {
     }
 
     .header-btn h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .header-title {
@@ -1666,10 +1666,14 @@ header {
 
     .logo-row {
         padding: 0 40px;
+        display: flex;
+        align-items: flex-start;
     }
 
     .logo-row2 {
         padding: 0 10px;
+        display: flex;
+        align-items: flex-start;
     }
 
     .logo-1 {
@@ -1711,11 +1715,27 @@ header {
     }
 
     .con-table {
-        font-size: 14px;
+        font-size: 0.1em;
+    }
+
+    .con-table-title1 {
+        width: 60px;
+    }
+
+    .con-table-title2 {
+        padding: 0 5px;
+    }
+
+    .con-table-title3 {
+        width: 60px;
     }
 
     .con-table2 {
         font-size: 14px;
+    }
+
+    .con-table2-title1 {
+        width: 80px;
     }
 
     .gotop {
