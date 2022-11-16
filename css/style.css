@@ -489,6 +489,14 @@ header {
     color: #845CA3;
 }
 
+.painting-area{
+    padding: 1%;
+}
+
+.painting{
+    width: 100%;
+}
+
 .P2-color {
     width: 90%;
     margin-bottom: 15px;
