@@ -125,7 +125,7 @@ header {
 }
 
 .header-title {
-    background-image: url(../img/title.png);
+    background-image: url(../img/title-2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -875,6 +875,10 @@ header {
     margin-left: -100%;
 }
 
+.dl-area{
+    width: 50%;
+}
+
 .dl-btn {
     font-family: 'TanukiMagic', 'Noto Sans TC';
     color: #fff;
@@ -892,6 +896,27 @@ header {
 
 .dl-btn:hover {
     background-image: url(../img/Cbtn-4-2.png);
+    color: #fff;
+    text-decoration: none;
+}
+
+.dl-btn2 {
+    font-family: 'TanukiMagic', 'Noto Sans TC';
+    color: #fff;
+    padding-top: 1%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/Cbtn-5.png);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dl-btn2:hover {
+    background-image: url(../img/Cbtn-1-2.png);
     color: #fff;
     text-decoration: none;
 }
@@ -1213,6 +1238,10 @@ header {
 
     .P4-draw2 {
         right: 20%;
+    }
+
+    .dl-area{
+        width: 80%;
     }
 
     .callout {
@@ -1783,6 +1812,10 @@ header {
 
     .P4-draw2 {
         right: 24%;
+    }
+
+    .dl-area{
+        width: 100%;
     }
 
     .QR {
