@@ -2005,3 +2005,52 @@ header {
     height: 130px;
     width: 100%;
 }
+
+@media only screen and (max-width: 991px) {
+    .j-header {
+        height: 1200px;
+    }
+
+    .j-title {
+        height: 80px;
+    }
+
+    .j-row {
+        margin-top: 10%;
+    }
+
+    .n4 {
+        margin-top: -43%;
+    }
+
+    .n5 {
+        margin-top: -43%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header-title h1 {
+        margin-top: 12%;
+    }
+
+    .j-row {
+        margin-top: 15%;
+    }
+
+    .judge-pic {
+        height: 270px;
+        width: 270px;
+    }
+
+    .judge-name {
+        width: 125px;
+        margin-top: -48%;
+    }
+
+    .text-area {
+        height: 80px;
+        width: 81%;
+    }
+
+}
