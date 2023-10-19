@@ -1027,19 +1027,20 @@ header {
 
 /* Callout box - fixed position at the bottom of the page */
 .callout {
+    width: 50%;
+    height: 60%;
     position: fixed;
-    bottom: 25%;
-    right: 38%;
+    bottom: 24%;
+    right: 25%;
     z-index: 999;
-    margin-left: 20px;
-    max-width: 25vw;
     box-shadow: 1px 1px 3px #3a3a3a7f;
 }
 
 /* Callout header */
 .callout-header {
-    padding: 20px 15px;
-    background: rgba(255, 153, 0, 0.8);
+    font-family: 'TanukiMagic', 'Noto Sans TC';
+    padding: 20px;
+    background: rgb(68 148 179 / 80%);
     font-size: 1.5em;
     color: white;
     backdrop-filter: blur(7px);
@@ -1047,17 +1048,25 @@ header {
 
 /* Callout container/body */
 .callout-container {
+    height: 100%;
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
-    border: 5px dashed rgba(255, 153, 0, 0.8);
+    border: 5px dashed rgb(68 148 179 / 80%);
     backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    justify-content: center;
+    text-align: left;
 }
 
 .callout-container p {
     margin: 0;
     line-height: 1.6;
     letter-spacing: 1px;
+    padding-left: 30px;
 }
 
 /* Close button */
@@ -1073,6 +1082,39 @@ header {
 /* Change color on mouse-over */
 .closebtn:hover {
     color: darkgray;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/draw/arrowL-01.png);
+    width: 100px;
+    height: 100px;
+    z-index: 9999;
+    margin-left: -93%;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../img/draw/arrow-01.png);
+    width: 100px;
+    height: 100px;
+    z-index: 9999;
+    margin-right: -93%;
+}
+
+.carousel-inner {
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.tool-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool-pic {
+    width: 30%;
+    margin-right: 5%;
 }
 
 @media only screen and (min-width: 1500px) {
@@ -1283,8 +1325,14 @@ header {
     }
 
     .callout {
-        max-width: 30vw;
-        right: 35%;
+        width: 80%;
+        height: 60%;
+        right: 10%;
+        top: 5%;
+    }
+
+    .tool-pic {
+        width: 30%;
     }
 }
 
@@ -1475,9 +1523,14 @@ header {
     }
 
     .callout {
-        max-width: 35vw;
-        right: 33%;
-        bottom: 20%;
+        width: 80%;
+        height: 60%;
+        right: 10%;
+        top: 5%;
+    }
+
+    .tool-pic {
+        width: 30%;
     }
 }
 
@@ -1650,8 +1703,20 @@ header {
     }
 
     .callout {
-        max-width: 50vw;
-        right: 25%;
+        width: 80%;
+        height: 70%;
+        right: 10%;
+        top: 5%;
+    }
+
+    .tool-area {
+        flex-direction: column;
+    }
+
+    .tool-pic {
+        width: 35%;
+        margin-right: 0;
+        margin-bottom: 5%;
     }
 }
 
@@ -1895,8 +1960,20 @@ header {
     }
 
     .callout {
-        max-width: 100vw;
-        right: 5%;
+        width: 80%;
+        height: 80%;
+        right: 10%;
+        top: 5%;
+    }
+
+    .tool-area {
+        flex-direction: column;
+    }
+
+    .tool-pic {
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 5%;
     }
 }
 
@@ -2004,6 +2081,45 @@ header {
     padding: 10%;
     height: 130px;
     width: 100%;
+}
+
+.notice-btn-area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 99999;
+}
+
+.notice-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'TanukiMagic', 'Noto Sans TC';
+    color: #000;
+}
+
+.notice-btn a {
+    color: #000;
+    text-decoration: none;
+}
+
+.notice-gif {
+    position: absolute;
+    width: 19%;
+    z-index: 99;
+    right: 0;
+    bottom: -5%;
+}
+
+.notice-draw {
+    width: 15%;
+    position: absolute;
+    left: 16%;
+    transform: rotate(-45deg);
+    z-index: 5;
 }
 
 @media only screen and (max-width: 991px) {
